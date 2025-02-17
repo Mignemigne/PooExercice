@@ -55,45 +55,25 @@ public class Exo18 {
 		for(short i = 0; i < array.length; i++) {
 			if (array[i] == 0) {
 				numberOfZero++;
-			}
-			
-			if (array[i] == 1) {
+			} else if (array[i] == 1) {
 				numberOfOne++;
-			}
-			
-			if (array[i] == 2) {
+			} else if (array[i] == 2) {
 				numberOfTwo++;
-			}
-			
-			if (array[i] == 3) {
+			} else if (array[i] == 3) {
 				numberOfThree++;
-			}
-			
-			if (array[i] == 4) {
+			} else if (array[i] == 4) {
 				numberOfFourth++;
-			}
-			
-			if (array[i] == 5) {
+			} else if (array[i] == 5) {
 				numberOfFive++;
-			}
-			
-			if (array[i] == 6) {
+			} else if (array[i] == 6) {
 				numberOfSix++;
-			}
-			
-			if (array[i] == 7) {
+			} else if (array[i] == 7) {
 				numberOfSeven++;
-			}
-			
-			if (array[i] == 8) {
+			} else if (array[i] == 8) {
 				numberOfEigth++;
-			}
-			
-			if (array[i] == 9) {
+			} else if (array[i] == 9) {
 				numberOfNine++;
-			}
-			
-			if (array[i] == 10) {
+			} else if (array[i] == 10) {
 				numberOfTen++;
 			}
 		}

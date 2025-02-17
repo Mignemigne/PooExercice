@@ -21,20 +21,15 @@ public class Exo17 {
 		for(int i = 0; i < array.length; i++) {
 			if (array[i] == 'a') {
 				vowel++;
-			}
-			if (array[i] == 'e') {
+			} else if (array[i] == 'e') {
 				vowel++;
-			}
-			if (array[i] == 'i') {
+			} else if (array[i] == 'i') {
 				vowel++;
-			}
-			if (array[i] == 'o') {
+			} else if (array[i] == 'o') {
 				vowel++;
-			}
-			if (array[i] == 'u') {
+			} else if (array[i] == 'u') {
 				vowel++;
-			} 
-			if (array[i] == 'y') {
+			} else if (array[i] == 'y') {
 				vowel++;
 			}
 			
